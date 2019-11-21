@@ -1,0 +1,26 @@
+{
+    "name": "TypeScript_Express_GraphQl_base_API",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build",
+        "build": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,graphql"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vlecoq-v/TypeScript_Express_GraphQl_base_API.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vlecoq-v/TypeScript_Express_GraphQl_base_API/issues"
+    },
+    "homepage": "https://github.com/vlecoq-v/TypeScript_Express_GraphQl_base_API#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.0",
+        "ts-node": "^8.5.2",
+        "typescript": "^3.7.2"
+    }
+}
