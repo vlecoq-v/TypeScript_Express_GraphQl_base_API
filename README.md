@@ -6,3 +6,6 @@ Main Tutorial for this project
 What is GraphQL and how to set it up
   https://medium.com/@chathuranga94/introduction-to-graphql-3e0142879aba
 
+Left to be done:
+  - understand ts-node src/server.ts -e ts, graphql
+
